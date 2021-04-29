@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Oi&family=Roboto&display=swap');
+
+body {
+  font-family: "Roboto", "Times New Roman", sans-serif;
+  font-weight: 400;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FFE6EE;
+  font-size: 24px;
+  margin: 30px auto;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+h1 { font-family: "Oi", "Times New Roman", cursive;
+}
+
+h2,
+h3 { font-family: "Fugaz One", "Times New Roman", cursive;
+}
+
+a {
+  color: #d9969f;
+}
+
+a:link {
+  color: #b5dce9;
+}
+
+a:visited {
+  color: #89CFF0;
+}
+
+a:hover {
+  color: #E9D3FF;
+}
+
+nav ul {
+  font-style: normal;
+  padding-left: 0;
+  margin-top: 32.1667px;
+  margin-right: 0;
+  margin-bottom: 32.1667px;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: #FFE6EE;
+  border-style: outset;
+  border-width: medium;
+  border-color: #000000;
+  border-radius: 50px;
+}
+
+#hi {
+  padding: 10px 20px;
+  background-color: #FFE6EE;
+  margin-top: 0;
+}
+
+#hi figure {
+  display: grid;
+  float: left;
+  background-color: blue;
+}
+
+#titlerecipes {
+  padding: 10px 20px;
+  background-color: #b5dce9;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#hirecipes {
+  padding: 10px 20px;
+  background-color: #FFE6EE;
+  margin-top: 0;
+}
+
+#hirecipes figure {
+  display: grid;
+  float: left;
+}
+
+#hirecipes ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#three-step-process {
+  padding: 10px 20px;
+  background-color: #b5dce9;
+  margin-top: 70px;
+}
+
+#chococupcakes {
+  padding: 10px 20px;
+  background-color: #FFE6EE;
+  margin-top: 10px;
+}
+
+#chococupcakes figure{
+  display: grid;
+  float: right;
+}
+
+#chococupcakes ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#chococupcakessteps {
+  padding: 10px 20px;
+  background-color: #b5dce9;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+#workouts {
+  padding: 1px 20px;
+  background-color: #FFE6EE;
+  margin-top: 10px;
+}
+
+#workouttitle {
+  padding: 10px 20px;
+  background-color: #b5dce9;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#workouts figure {
+  display: grid;
+  float: left;
+  padding: 20px 0;
+}
+
+#bootyworkout {
+  padding: 10px 20px;
+  background-color: #FFE6EE;
+  margin-top: 70px;
+}
+
+#bootyworkout figure {
+  display: grid;
+  float: right;
+}
