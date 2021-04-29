@@ -2,25 +2,17 @@
 
 body {
   font-family: "Roboto", "Times New Roman", sans-serif;
+  color: #000;
   font-weight: 400;
+}
+
+#wrapper {
   max-width: 960px;
   margin: 0 auto;
 }
 
-header {
-  background-color: #FFE6EE;
-  font-size: 24px;
-  margin: 30px auto;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 10px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #000;
-}
-
 h1 { font-family: "Oi", "Times New Roman", cursive;
+font-size: 45px;
 }
 
 h2,
@@ -43,9 +35,28 @@ a:hover {
   color: #E9D3FF;
 }
 
+a:active {
+  color:#8cd3ff;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #FFE6EE;
+  font-size: 24px;
+  margin: 30px auto;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
 nav ul {
   font-style: normal;
-  padding-left: 0;
+  padding: 50px;
   margin-top: 32.1667px;
   margin-right: 0;
   margin-bottom: 32.1667px;
@@ -59,10 +70,9 @@ nav li {
   margin-right: 20px;
   font-size: 16px;
   background-color: #FFE6EE;
-  border-style: outset;
-  border-width: medium;
+  border-style: dotted;
+  border-width: thin;
   border-color: #000000;
-  border-radius: 50px;
 }
 
 #hi {
@@ -113,7 +123,7 @@ nav li {
   margin-top: 10px;
 }
 
-#chococupcakes figure{
+#chococupcakes figure {
   display: grid;
   float: right;
 }
